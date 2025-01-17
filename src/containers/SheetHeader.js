@@ -12,7 +12,7 @@ const SheetHeader = () => {
   };
   return (
     <div className="py-[0.6rem] px-[1rem] bg-white border-1 border-b border-[#E5E5E5]">
-      <div className="flex items-center justify-between">
+      <div className="md:flex items-center justify-between">
         <div className="flex items-center gap-[1rem]">
           <FiArrowLeft />
           <input

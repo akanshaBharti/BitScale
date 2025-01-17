@@ -71,9 +71,9 @@ const Sheet = () => {
         <SheetSidebar />
         <div className="w-full">
           <div className="px-[1rem] py-[1rem] ">
-            <div className="flex justify-between items-center">
-              <div className="flex gap-[1rem] items-center">
-                <div className=" flex gap-1 items-center rounded border border-[#D9D9D9] px-2 py-[0.1rem]">
+            <div className="md:flex justify-between items-center">
+              <div className="md:flex gap-[1rem] items-center">
+                <div className="md:mb-0 mb-[0.5rem] flex gap-1 items-center rounded border border-[#D9D9D9] px-2 py-[0.1rem]">
                   <img
                     src={searchIcon}
                     alt="search"
@@ -103,7 +103,7 @@ const Sheet = () => {
                   Sort
                 </h1>
               </div>
-              <div className="flex items-center gap-[0.2rem]">
+              <div className="flex items-center gap-[0.2rem] md:mt-0 mt-[0.5rem]">
                 <button className="text-[0.8rem] py-[0.2rem] px-[0.4rem] text-white flex gap-[0.3rem] items-center rounded-md bg-darkGray">
                   <img src={star} alt="" />
                   Enrich
